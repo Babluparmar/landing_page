@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+}
+
+nav{
+    height: 17%;
+    width: 21%;
+    position: absolute;
+    top: 34px;
+    left: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 44%;
+    width: 31%;
+}
+
+pre{
+   font-size: 30px;
+   font-weight: 900;
+   color: #fff;
+}
+
+.part1{
+    height: 100%;
+    width: 26%;
+    background-color: #d4cdfaf3;
+}
+
+.part2{
+    height: 100%;
+    width: 66%;
+    background-image: url("temple.jpg");
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.part3{
+    height: 100%;
+    width: 8%;
+    background-color: rgb(65, 175, 218);
+
+}
+
+.srimage{
+    width: 430px;
+    height: 565px;
+    background-image: url("ShreeRam.jpg");
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    background-size: cover;
+    
+}
+
+.text{
+    position:absolute;
+    top: 50%;
+    left: 4%;
+    font-weight: 900;
+    color:cadetblue;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rtext{
+    position: absolute;
+    /* background-color: red; */
+    right: -8%;
+    top: 20%;
+
+}
+
+.rtext h1{
+    font-size: 70px;
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    transform: rotate(90deg);
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
